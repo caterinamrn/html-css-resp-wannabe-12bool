@@ -18,8 +18,8 @@
 }
 
 /* small device */
-
-@media all and (min-width:769px) (max-width:992px) {
+@media all and (max-width:768px)
+ {
 
   .clear-xs {
     display: block;
@@ -114,8 +114,8 @@
 }
 
 /* medium device */
-
-@media all and (min-width:993px) {
+@media all and (min-width:769px) and (max-width:992px)
+ {
 
   .clear-md {
     display: block;
@@ -211,7 +211,8 @@
 
 /* large device */
 
-@media all and (max-width:768px) {
+
+@media all and (min-width:993px){
 
   .clear-lg {
     display: block;
