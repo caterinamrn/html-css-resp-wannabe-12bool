@@ -19,7 +19,7 @@
 
 /* small device */
 
-@media all and (max-width:768px) {
+@media all and (min-width:769px) (max-width:992px) {
 
   .clear-xs {
     display: block;
@@ -115,7 +115,7 @@
 
 /* medium device */
 
-@media all and (max-width:768px) {
+@media all and (min-width:993px) {
 
   .clear-md {
     display: block;
